@@ -17,7 +17,7 @@ def fizzbuzz(int)
     "Buzz"
     end #END OF 1B
     
-  elsif int%5 !=0 && int%3 !=0
+  else
   nil
 end 
 end
