@@ -2,14 +2,19 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int%3 == 0
-    "Fizz"
+    if int%5 == 0 
+      "FizzBuzz"
+    else
+      "Fizz"
+    end
     
   elsif int%5 == 0
+    if int%%3 == 0
+      "FizzBuzz"
+    else 
     "Buzz"
+  end
     
-  elsif (int%3 == 0) && (int%5 ==0)
-  "FizzBuzz"
-  
   else 
     "nil"
   end
