@@ -15,7 +15,7 @@ def fizzbuzz(int)
     "Buzz"
   end
     
-  else 
+  elsif !(int%3 == 0 && int%5 == 0) 
     "nil"
   end
 end
